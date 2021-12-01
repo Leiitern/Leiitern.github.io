@@ -34,7 +34,7 @@ section img{
 
 section a{
     display: inline-block;
-    padding: 7px 0;
+    padding: 10px 0;
     color: #fff;
     text-decoration: none;
     width: 100px;
@@ -42,6 +42,7 @@ section a{
     border: 1px solid #000;
     border-radius: 50px;
     background: #000;
+    
 }
 
 section:nth-child(1){
