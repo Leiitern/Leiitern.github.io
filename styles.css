@@ -33,7 +33,7 @@ section p{
     border-radius: 30px;
 }
 
-#sec1 a, #sec2 a, #sec3 a, #sec4 a{
+#sec1 a, #sec2 a, #sec3 a, #sec4 a, #sec5 a, #sec6 a{
     display: inline-block;
     padding: 10px 0;
     color: #fff;
@@ -58,15 +58,70 @@ section:nth-child(3){
 }
 
 section:nth-child(4){
-    background-image: linear-gradient(to top, #1e3c72 0%, #1e3c72 1%, #2a5298 100%);
+   background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
 }
 
 html{
     scroll-behavior: smooth;
 }
 
+
 .contenedor-texto{
     text-align: center;
     align-items: center;
 }
 
+#sec5 {
+    display: inline-block; 
+    padding-top: 40px;
+    background-image: linear-gradient(to top, #37ecba 0%, #72afd3 100%);
+    height: 3290px;
+}
+
+#sec5 .ref{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 40px;
+}
+
+#sec6 .ref{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.grid-container{
+    columns: 4 200px;
+    column-gap: 4rem;
+    width: 100%;
+    margin: 0 auto;
+}
+.grid-container div{
+    width: 150px;
+    margin: 0 1.5rem 1.5rem 0;
+    display: inline-block;
+    width: 100%;
+    border: solid 2px black;
+    padding: 5px;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
+    border-radius: 5px;
+    transition: all .25s ease-in-out;
+    padding: 5px;
+    background: #fff;
+}
+.grid-container img {
+    width: 100%;
+    border-radius: 5px;
+}
+.grid-container p {
+    margin: 5px 0;
+    padding: 0;
+    text-align: center;
+    font-style: italic;
+}
+
+#sec6{
+    background-image: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
+}
